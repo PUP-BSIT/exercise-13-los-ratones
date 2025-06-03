@@ -27,6 +27,7 @@ while True:
             pass
         case 6:
             exit()
+        
         case _:
             print("Invalid Option. Please try again.")
             
