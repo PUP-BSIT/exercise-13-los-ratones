@@ -2,12 +2,12 @@ from packages import reduta
 
 while True:
     print("Welcome to Los Ratones!!"
-          + "\n1. "
-          + "\n2. "
-          + "\n3. "
-          + "\n4. About Paul Benidict Reduta"
-          + "\n5. "
-          + "\n6. Exit")
+          "\n1. ",
+          "\n2. ",
+          "\n3. ",
+          "\n4. About Paul Benidict Reduta",
+          "\n5. ",
+          "\n6. Exit"),
     
     user_choice = int(input("Please Select an Option (1-6): "))
     
