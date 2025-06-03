@@ -2,11 +2,12 @@ from packages import reduta
 from packages import campos
 from packages import manicio
 from packages import rodriguez
+from packages import gonot
 
 while True:
     print("Welcome to Los Ratones!!"
           "\n1. About Kenji Enishi Campos",
-          "\n2. ",
+          "\n2. About Jedi Duncan Gonot",
           "\n3. About Dion Kylo C Manicio",
           "\n4. About Paul Benidict Reduta",
           "\n5. About John Paul Rodriguez",
@@ -18,10 +19,9 @@ while True:
         case 1:
             campos.display_user_info()
             input()
-            pass
         case 2:
-            #TODO(Jedi Duncan Gonot): Implement the functionality for option 2
-            pass
+            gonot.display_user_info()
+            input()
         case 3:
             manicio.display_user_info()
             input()
@@ -33,7 +33,6 @@ while True:
             input()
         case 6:
             exit()
-        
         case _:
             print("Invalid Option. Please try again.")
             
