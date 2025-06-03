@@ -9,7 +9,7 @@ while True:
           "\n2. ",
           "\n3. About Dion Kylo C Manicio",
           "\n4. About Paul Benidict Reduta",
-          "\n5. ",
+          "\n5. About John Paul Rodriguez",
           "\n6. Exit"),
     
     user_choice = int(input("Please Select an Option (1-6): "))
