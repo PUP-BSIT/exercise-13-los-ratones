@@ -14,19 +14,19 @@ while True:
     match user_choice:
         case 1:
             campos.display_user_info()
-            input()
+            input("Press Enter to continue...")
         case 2:
             gonot.display_user_info()
-            input()
+            input("Press Enter to continue...")
         case 3:
             manicio.display_user_info()
-            input()
+            input("Press Enter to continue...")
         case 4:
             reduta.display_user_info()
-            input()
+            input("Press Enter to continue...")
         case 5:
             rodriguez.display_user_info()
-            input()
+            input("Press Enter to continue...")
         case 6:
             exit()
         case _:

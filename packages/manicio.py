@@ -20,21 +20,21 @@ def display_user_info():
         match user_choice:
             case 1:
                 print(f"Im {AGE} years old, I live in {TOWN}!")
-                input()
+                input("Press Enter to continue...")
             case 2:
                 print(f"My aspiration is {ASPIRATION}.")
-                input()
+                input("Press Enter to continue...")
             case 3:
                 print("Reduta: I wish that too!")
-                input()
+                input("Press Enter to continue...")
             case 4:
                 print("Campos: I am considering the same path!")
-                input()
+                input("Press Enter to continue...")
             case 5:
                 print("Gonot: I love that!")
-                input()
+                input("Press Enter to continue...")
             case 6:
                 print("Rodriguez: Don’t give up — you can make it!")
-                input()
+                input("Press Enter to continue...")
             case 7:
                 break
