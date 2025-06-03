@@ -1,6 +1,7 @@
 from packages import reduta
 from packages import campos
 from packages import manicio
+from packages import rodriguez
 
 while True:
     print("Welcome to Los Ratones!!"
@@ -28,8 +29,8 @@ while True:
             reduta.display_user_info()
             input()
         case 5:
-            #TODO(John Paul Rodriguez): Implement the functionality for option 5
-            pass
+            rodriguez.display_user_info()
+            input()
         case 6:
             exit()
         
