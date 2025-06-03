@@ -13,7 +13,7 @@ def display_user_info():
               + "\n3. Reduta - Comment"
               + "\n4. Manicio - Comment"
               + "\n5. Gonot - Comment"
-              + "\n6. "
+              + "\n6. Rodriguez - Comment"
               + "\n7. Exit")
         
         user_choice = int(input("Please Select an Option (1-7): "))
@@ -35,6 +35,7 @@ def display_user_info():
                 print("Gonot: Keep going my friend!")
                 input()
             case 6:
-                pass
+                print("Rodriguez: Don’t give up — you can make it!")
+                input()
             case 7:
                 break

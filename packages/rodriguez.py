@@ -17,7 +17,7 @@ def display_user_info():
         print("6. Gonot - Comment")
         print("0. Exit")
 
-        user_choice = input("Please Select an Option (0-4): ")
+        user_choice = input("Please Select an Option (0-6): ")
 
         match user_choice:
             case 1:
