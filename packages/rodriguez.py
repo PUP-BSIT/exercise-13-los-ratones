@@ -11,8 +11,8 @@ def display_user_info():
         print("\n* * * * *")
         print("1. My basic information")
         print("2. My aspirations")
-        print("3. Comment from Teammate 1")
-        print("4. Comment from Teammate 2")
+        print("3. Reduta - Comment")
+        print("4. Campos - Comment")
         print("0. Exit")
 
         user_choice = input("Please Select an Option (0-4): ")
@@ -28,7 +28,8 @@ def display_user_info():
                 print("Reduta: I wish that too!")
                 input()
             case 4:
-                print(f"Teammate 2 says: ")
+                print("Campos: That's a great goal!")
+                input()
             case 0:
                 break
             case _:

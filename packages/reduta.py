@@ -10,7 +10,7 @@ def display_user_info():
     while True:
         print("\n1. My basic information"
               "\n2. My aspirations",
-              "\n3. ",
+              "\n3. Campos - Comment",
               "\n4. ",
               "\n5. ",
               "\n6. ",
@@ -26,7 +26,8 @@ def display_user_info():
                 print(f"My aspiration is {ASPIRATION}.")
                 input()
             case 3:
-                pass
+                print("Campos: WOW! you live in Taguig City too!")
+                input()
             case 4:
                 pass
             case 5:
