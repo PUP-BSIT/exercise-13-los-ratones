@@ -1,10 +1,10 @@
 def display_user_info():
-    age = 18
-    name = "Paul Benidict Reduta"
-    aspirations = "To become a successful software engineer"
-    town = "Taguig City"
+    AGE = 20
+    NAME = "Paul Benidict Reduta"
+    ASPIRATION = "To become a successful software engineer"
+    TOWN = "Taguig City"
     
-    print(f"Hello!, Im {name}")
+    print(f"Hello!, Im {NAME}")
     
     while True:
         print("\n1. My basic information"
@@ -19,10 +19,10 @@ def display_user_info():
         
         match user_choice:
             case 1:
-                print(f"Im {age} years old, I live in {town}!")
+                print(f"Im {AGE} years old, I live in {TOWN}!")
                 input()
             case 2:
-                print(f"My aspiration is {aspirations}.")
+                print(f"My aspiration is {ASPIRATION}.")
                 input()
             case 3:
                 pass
