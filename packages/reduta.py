@@ -12,7 +12,7 @@ def display_user_info():
               "\n2. My aspirations",
               "\n3. Campos - Comment",
               "\n4. Manicio - Comment",
-              "\n5. ",
+              "\n5. Gonot - Comment",
               "\n6. ",
               "\n7. Exit")
         
@@ -32,7 +32,8 @@ def display_user_info():
                 print("Manicio: you'll get there!")
                 input()
             case 5:
-                pass
+                print("Gonot: Continue on your journey!")
+                input()
             case 6:
                 pass
             case 7:

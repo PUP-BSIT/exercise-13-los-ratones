@@ -11,7 +11,7 @@ def display_user_info():
               "\n2. My aspirations",
               "\n3. Reduta - Comment",
               "\n4. Campos - Comment",
-              "\n5. ",
+              "\n5. Gonot - Comment",
               "\n6. ",
               "\n7. Exit")
         
@@ -31,7 +31,8 @@ def display_user_info():
                 print("Campos: I am considering the same path!")
                 input()
             case 5:
-                pass
+                print("Gonot: I love that!")
+                input()
             case 6:
                 pass
             case 7:
