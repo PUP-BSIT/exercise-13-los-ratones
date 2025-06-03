@@ -3,12 +3,12 @@ from packages import campos
 
 while True:
     print("Welcome to Los Ratones!!"
-          + "\n1. About Kenji Enishi Campos"
-          + "\n2. "
-          + "\n3. "
-          + "\n4. About Paul Benidict Reduta"
-          + "\n5. "
-          + "\n6. Exit")
+          "\n1. About Kenji Enishi Campos",
+          "\n2. ",
+          "\n3. ",
+          "\n4. About Paul Benidict Reduta",
+          "\n5. ",
+          "\n6. Exit"),
     
     user_choice = int(input("Please Select an Option (1-6): "))
     
