@@ -1,8 +1,9 @@
 from packages import reduta
+from packages import campos
 
 while True:
     print("Welcome to Los Ratones!!"
-          + "\n1. "
+          + "\n1. About Kenji Enishi Campos"
           + "\n2. "
           + "\n3. "
           + "\n4. About Paul Benidict Reduta"
@@ -13,7 +14,8 @@ while True:
     
     match user_choice:
         case 1:
-            #TODO(Kenji Enishi Campos): Implement the functionality for option 1
+            campos.display_user_info()
+            input()
             pass
         case 2:
             #TODO(Jedi Duncan Gonot): Implement the functionality for option 2
