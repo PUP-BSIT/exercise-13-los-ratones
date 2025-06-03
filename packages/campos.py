@@ -1,5 +1,5 @@
 def display_user_info():
-    
+
     age = 20
     name = "Kenji Enishi Campos"
     aspirations = "To become a successful individual that can help my family"
@@ -10,7 +10,7 @@ def display_user_info():
     while True:
         print("\n1. My basic information"
               + "\n2. My aspirations"
-              + "\n3. "
+              + "\n3. Reduta - Comment"
               + "\n4. "
               + "\n5. "
               + "\n6. "
@@ -26,7 +26,8 @@ def display_user_info():
                 print(f"My aspiration is {aspirations}.")
                 input()
             case 3:
-                pass
+                print("Reduta: Wow, you can do it!")
+                input()
             case 4:
                 pass
             case 5:
