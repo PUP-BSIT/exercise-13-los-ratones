@@ -1,5 +1,4 @@
 def display_user_info():
-    
     AGE = 20
     NAME = "Dion Kylo C Manicio"
     ASPIRATION = "To become successful in Cybersecurity field."
@@ -10,7 +9,7 @@ def display_user_info():
     while True:
         print("\n1. My basic information"
               "\n2. My aspirations",
-              "\n3. ",
+              "\n3. Reduta - Comment",
               "\n4. ",
               "\n5. ",
               "\n6. ",
@@ -26,7 +25,8 @@ def display_user_info():
                 print(f"My aspiration is {ASPIRATION}.")
                 input()
             case 3:
-                pass
+                print("Reduta: I wish that too!")
+                input()
             case 4:
                 pass
             case 5:

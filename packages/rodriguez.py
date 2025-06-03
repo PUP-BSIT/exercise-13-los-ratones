@@ -25,7 +25,8 @@ def display_user_info():
             case 2:
                 print(f"My goal: {GOAL}")
             case 3:
-                print(f"Teammate 1 says: ")
+                print("Reduta: I wish that too!")
+                input()
             case 4:
                 print(f"Teammate 2 says: ")
             case 0:
