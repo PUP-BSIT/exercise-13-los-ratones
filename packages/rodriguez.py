@@ -14,6 +14,7 @@ def display_user_info():
         print("3. Reduta - Comment")
         print("4. Campos - Comment")
         print("5. Manicio - Comment")
+        print("6. Gonot - Comment")
         print("0. Exit")
 
         user_choice = input("Please Select an Option (0-4): ")
@@ -33,6 +34,9 @@ def display_user_info():
                 input()
             case 5:
                 print("Manicio: Dream big and work harder!")
+                input()
+            case 6:
+                print("Gonot: I know you can do that!")
                 input()
             case 0:
                 break
