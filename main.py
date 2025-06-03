@@ -1,9 +1,11 @@
+from packages import reduta
+
 while True:
     print("Welcome to Los Ratones!!"
           + "\n1. "
           + "\n2. "
           + "\n3. "
-          + "\n4. "
+          + "\n4. About Paul Benidict Reduta"
           + "\n5. "
           + "\n6. Exit")
     
@@ -20,8 +22,8 @@ while True:
             #TODO(Dion Manicio): Implement the functionality for option 3
             pass
         case 4:
-            #TODO(Paul Benidict Reduta): Implement the functionality for option 4
-            pass
+            reduta.display_user_info()
+            input()
         case 5:
             #TODO(John Paul Rodriguez): Implement the functionality for option 5
             pass
