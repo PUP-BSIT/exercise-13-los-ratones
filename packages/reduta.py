@@ -11,7 +11,7 @@ def display_user_info():
         print("\n1. My basic information"
               "\n2. My aspirations",
               "\n3. Campos - Comment",
-              "\n4. ",
+              "\n4. Manicio - Comment",
               "\n5. ",
               "\n6. ",
               "\n7. Exit")
@@ -29,7 +29,8 @@ def display_user_info():
                 print("Campos: WOW! you live in Taguig City too!")
                 input()
             case 4:
-                pass
+                print("Manicio: you'll get there!")
+                input()
             case 5:
                 pass
             case 6:

@@ -11,7 +11,7 @@ def display_user_info():
         print("\n1. My basic information"
               + "\n2. My aspirations"
               + "\n3. Reduta - Comment"
-              + "\n4. "
+              + "\n4. Manicio - Comment"
               + "\n5. "
               + "\n6. "
               + "\n7. Exit")
@@ -29,7 +29,8 @@ def display_user_info():
                 print("Reduta: Wow, you can do it!")
                 input()
             case 4:
-                pass
+                print("Manicio: Keep pushing forward!")
+                input()
             case 5:
                 pass
             case 6:

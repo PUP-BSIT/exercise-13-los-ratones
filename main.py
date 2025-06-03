@@ -1,8 +1,4 @@
-from packages import reduta
-from packages import campos
-from packages import manicio
-from packages import rodriguez
-from packages import gonot
+from packages import reduta, campos, manicio, rodriguez, gonot
 
 while True:
     print("Welcome to Los Ratones!!"
