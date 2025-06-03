@@ -8,12 +8,12 @@ def display_user_info():
     
     while True:
         print("\n1. My basic information"
-              + "\n2. My aspirations"
-              + "\n3. "
-              + "\n4. "
-              + "\n5. "
-              + "\n6. "
-              + "\n7. Exit")
+              "\n2. My aspirations",
+              "\n3. ",
+              "\n4. ",
+              "\n5. ",
+              "\n6. ",
+              "\n7. Exit")
         
         user_choice = int(input("Please Select an Option (1-7): "))
         
