@@ -1,11 +1,12 @@
 from packages import reduta
 from packages import campos
+from packages import manicio
 
 while True:
     print("Welcome to Los Ratones!!"
           "\n1. About Kenji Enishi Campos",
           "\n2. ",
-          "\n3. ",
+          "\n3. About Dion Kylo C Manicio",
           "\n4. About Paul Benidict Reduta",
           "\n5. ",
           "\n6. Exit"),
@@ -21,8 +22,8 @@ while True:
             #TODO(Jedi Duncan Gonot): Implement the functionality for option 2
             pass
         case 3:
-            #TODO(Dion Manicio): Implement the functionality for option 3
-            pass
+            manicio.display_user_info()
+            input()
         case 4:
             reduta.display_user_info()
             input()
